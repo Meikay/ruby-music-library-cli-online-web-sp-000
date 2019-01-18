@@ -20,6 +20,8 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     input = gets.strip
+
+    #check the inputs using case statements
      end
   end
 
@@ -73,6 +75,8 @@ class MusicLibraryController
         puts "Playing #{song.name} by #{song.artist.name}" if song
       end
   end
+
+
 
 
 end
