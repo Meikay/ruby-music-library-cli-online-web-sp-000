@@ -24,11 +24,11 @@ class MusicLibraryController
     #check the inputs using case statements
       case input
       when 'list_songs'
-        songs
+        list_songs
       when 'list_artists'
-        artists
+        list_artists
       when 'list_genres'
-        genres
+        list_genres
       when 'list_songs_by_artist'
         list_artist
       when 'list_songs_by_genre'
