@@ -30,11 +30,11 @@ class MusicLibraryController
       when 'list_genres'
         genres
       when 'list_songs_by_artist'
-        list_artist
+        list_artists
       when 'list_songs_by_genre'
-        list_genre
+        list_genres
       when 'play_song'
-        play_song
+        play_songs
        end
      end
   end
