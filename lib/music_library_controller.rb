@@ -22,7 +22,7 @@ class MusicLibraryController
     input = gets.strip
 
     #check the inputs using case statements
-      case inputs
+      case input
       when 'list_songs'
         songs
       when 'list_artists'
