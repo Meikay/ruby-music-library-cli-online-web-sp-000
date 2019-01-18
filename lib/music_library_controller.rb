@@ -29,10 +29,10 @@ class MusicLibraryController
         list_artists
       when 'list_genres'
         list_genres
-      when 'list_songs_by_artist'
-        list_artist
-      when 'list_songs_by_genre'
-        list_genre
+      when 'list_artist'
+        list_songs_by_artist
+      when 'list_genre'
+        list_songs_by_genre
       when 'play_song'
         play_song
        end
